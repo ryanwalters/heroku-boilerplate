@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('Dragon', [
+angular.module('YourApp', [
     'ui.router'
 ])
     .config(['$stateProvider', '$locationProvider', function ($stateProvider, $locationProvider) {
@@ -9,7 +9,7 @@ angular.module('Dragon', [
 
         $stateProvider
             .state('dragon', {
-                controller: 'DragonCtrl',
+                controller: 'YourAppCtrl',
                 templateUrl: '/app/app.html',
                 url: '/'
             });

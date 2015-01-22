@@ -1,5 +1,5 @@
 
-angular.module('Dragon')
-    .controller('DragonCtrl', ['$scope', function ($scope) {
-        $scope.testing = 'Hello there!';
+angular.module('YourApp')
+    .controller('YourAppCtrl', ['$scope', function ($scope) {
+        $scope.hello = 'Hello there!';
     }]);

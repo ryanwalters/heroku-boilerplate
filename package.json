@@ -1,10 +1,10 @@
 {
-  "name": "dq8",
+  "name": "heroku-boilerplate",
   "version": "0.1.0",
-  "description": "Dragon Quest VIII Project",
-  "main": "index.js",
+  "description": "Basic 'Hello world!' application for the Heroku platform built on Node.js.",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "gulp": "^3.8.10",
@@ -20,13 +20,8 @@
     "node": "0.10.x"
   },
   "keywords": [
-    "dragon",
-    "quest",
-    "viii",
-    "8",
-    "information",
-    "database",
-    "project"
+    "heroku",
+    "boilerplate"
   ],
   "private": true
 }
