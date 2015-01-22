@@ -1,6 +1,6 @@
 'use strict';
 
-var Hapi = require('Hapi'),
+var Hapi = require('hapi'),
     PG = require('pg'),
     Server = new Hapi.Server();
 
